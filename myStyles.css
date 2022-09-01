@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+.topnav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+a {
+    padding: 15px;
+    text-decoration: none;
+}
+  .openbtn{
+    flex-grow: 1;
+    margin-left: 20px;
+    font-size: 2em;
+    visibility: hidden;
+    
+  }
+
+  .openbtn span {
+    cursor: pointer;
+  }
+
+  #sidenav{
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #065a82;
+    padding-top: 60px;
+    transition: all .8s;
+  }
+
+  main {
+    position: relative;
+    left: 150px;
+    max-width: calc(100% - 150px);
+  }
+
+  @media screen and (max-width: 700px) {
+    .openbtn{
+        visibility: visible;
+    }
+    #sidenav{
+        left: -200px;
+    }
+  }

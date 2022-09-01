@@ -1,0 +1,100 @@
+p {
+    font-weight: 900;
+    font-size: large;
+}
+
+body {
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/swirl_pattern.png');
+}
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    border-color: black;
+    
+}
+
+.logo h1 {
+    color:  gray;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.logo span {
+    color: lime;
+    font-family: sans-serif;    
+    font-weight: bolder;
+}
+
+.nav-bar{
+    margin-top: 10px;
+    padding-right: 3px;
+}
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    object-fit: cover;
+}
+
+.whiteBox p{
+    background-color: white;
+    padding: 15px;
+    position: absolute;
+    bottom: 40px;
+    right: 5px;
+    
+}
+
+.greenBox p{
+    background-color: greenyellow;
+    padding: 15px;
+    position: absolute;
+    bottom: -9px;
+    right: 5px;
+        
+}
+
+.pictureBox1, .pictureBox2, .pictureBox3 {
+    position: relative;
+    display: inline-block;
+}
+
+.page {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.message {
+    width: 400px;
+    padding: 10px;
+}
+
+.header {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
